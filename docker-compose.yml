@@ -1,0 +1,16 @@
+#version: '3'
+#
+#services:
+#  db:
+#    container_name: login_form
+#    image: 'postgres:9.6'
+#    env_file:
+#      - .env
+#
+#  app:
+#    container_name: MyForm
+#    build:
+#      context: ./
+#      dockerfile: ./Dockerfile
+#    depends_on:
+#      - db
